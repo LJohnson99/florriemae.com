@@ -1,2 +1,81 @@
-# florriemae.com
-Web Development for https://florriemae.com/
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floral Feed</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #fff;
+            color: #222;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: 300;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 5px;
+            padding: 10px;
+        }
+
+        .grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 1/1;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+            padding: 20px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>@florriemae__</h1>
+        <p>Florist creating elegant seasonal arrangements</p>
+    </header>
+
+    <section class="grid">
+        <img src="https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Flower 1">
+        <img src="https://images.unsplash.com/photo-1538998073820-4dfa76300194?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Flower 2">
+        <img src="https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Flower 3">
+        <img src="https://images.unsplash.com/photo-1527061011665-3652c757a4d4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Flower 4">
+        <img src="https://images.unsplash.com/photo-1476209446441-5ad72f223207?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Flower 5">
+        <img src="https://images.unsplash.com/photo-1491833167315-f2f6c7c5deab?q=80&w=2115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Flower 6">
+    </section>
+
+    <footer>
+        &copy; Florrie Mae | Powered by Rocky 🌷
+    </footer>
+
+</body>
+
+</html>
